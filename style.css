@@ -4,16 +4,21 @@
 }
 
 .login {
+    background: rgb(69, 77, 94);
+    height: 100vh;
+    width: 100%;
     background: rgb(69, 69, 94);
     height: 100vh;
     width: 100%;
-
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .login-cont {
+    background: rgba(62, 96, 190, 0.753);
+    height: 460px;
+    width: 420px;
     background: rgb(78, 73, 146);
     height: 460px;
     width: 420px;
@@ -27,6 +32,7 @@
     align-items: center;
     justify-content: end;
     position: relative;
+    box-shadow: 3px 3px 10px rgb(5, 38, 102);
 
     box-shadow: 3px 3px 10px #15053f;
 }
@@ -40,6 +46,10 @@
     flex-direction: column;
 }
 
+.login-title {
+    color: rgb(5, 38, 102);
+}
+
  .login-title {
     color: #15053f;
     margin: 0 15px 15px 0px;
@@ -47,7 +57,8 @@
     display: block;
     position: absolute;
     top: 50px;
-} 
+}
+
 
 .login-input {
     background: rgb(230, 217, 253);
@@ -56,9 +67,14 @@
     display: block;
     font-size: 20px;
     border-radius: 5px;
+    border: solid 1px rgb(5, 38, 102);
     border: solid 1px #15053f;
     margin: 20px;
     padding-left: 10px;
+}
+
+.login-input:active {
+    border: none;
 }
 
 .login-button {
@@ -67,6 +83,8 @@
     width: 150px;
     margin-top: 25px;
     border-radius: 10px;
+    border: solid 1px rgb(5, 38, 102);
+    box-shadow: 2px 2px 5px rgb(5, 38, 102);
     border: solid 1px #15053f;
     box-shadow: 2px 2px 5px #15053f;
     font-size: 17px;
@@ -77,10 +95,55 @@
 }
 
 .home-nav {
+    background: rgb(5, 38, 102);
     background: #260f61;
     height: 50px;
     display: flex;
     align-items: center;
+}
+
+.home-img {
+    height: 35px;
+    width: 35px;
+    margin: 0 17px 0 17px;
+}
+
+.home-link {
+    margin: 10px;
+    color: rgb(188, 180, 238);
+}
+
+.home-content {
+    background: skyblue;
+    height: 200vh;
+    width: 100%;
+}
+
+.home-content-div {
+    background: whitesmoke;
+    height: 700px;
+    width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+.home-texto {
+    font-size: 20px;
+    color: black;
+    margin: 20px;
+}
+
+.home-footer {
+    background: rgb(5, 38, 102);
+    color: white;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 0;
 }
 
 .home-nav-link {

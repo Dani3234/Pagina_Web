@@ -4,6 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://cryptologos.cc/logos/fantom-ftm-logo.png">
+</head>
+<body>
+    <nav class="home-nav">
+        <img class="home-img" src="https://cryptologos.cc/logos/fantom-ftm-logo.png" alt="icon">
+        <a class="home-link" href="index.html">Home</a>
+        <a class="home-link" href="login.html">login</a>
+    </nav>
+    <section class="home-content">
+        <div class="home-content-div">
+            <h1>Cómo usar la propiedad de posición en CSS</h1> 
+            <p class="home-texto">
+                La propiedad position en CSS se utiliza para controlar la posición y el diseño de un elemento en una página web. Define cómo se coloca un elemento en relación con su contexto y otros elementos circundantes.
+
+                Existen varios valores que se pueden asignar a la propiedad position, cada uno con su comportamiento específico. Estos valores incluyen static, relative, absolute, fixed y sticky. Cada valor afecta la forma en que se posiciona y se apila el elemento en el diseño de la página.
+
+                Al ajustar la propiedad position de un elemento, puedes utilizar otras propiedades, como top, right, bottom y left, para definir su posición exacta en relación con su contenedor o elementos vecinos.
+
+                En resumen, la propiedad position en CSS te permite controlar dónde y cómo se muestra un elemento en una página web, permitiéndote crear diseños y estructuras personalizadas. 
+            </p>
+            <h3><li>Position: static;</li></h3>
+            <p class="home-texto">
+                El valor static es el comportamiento predeterminado para todos los elementos. Un elemento con position: static se coloca en su posición normal en el flujo del documento. No se ve afectado por las propiedades de posicionamiento y no se pueden utilizar las propiedades top, right, bottom o left para ajustar su posición.
+            </p>
+            <h3><li>Position: relative;</li></h3>
+            <p class="home-texto">
+                Cuando se establece position: relative en un elemento, se posiciona de forma relativa a su posición original en el flujo del documento. Puedes utilizar las propiedades top, right, bottom y left para ajustar su posición en relación con sí mismo. La posición relativa no afecta a otros elementos circundantes, lo que significa que los elementos vecinos seguirán ocupando su espacio original incluso si mueves el elemento con position: relative.
+            </p>
+            <h3><li>Position: absolute;</li></h3>
+            <p class="home-texto">
+                El valor absolute posiciona un elemento de forma absoluta en relación con su elemento padre más cercano que tenga una posición diferente a static. Se utiliza la propiedad top, right, bottom y left para definir su posición exacta en relación con su contenedor padre. Un elemento con position: absolute se elimina del flujo normal del documento, lo que significa que no ocupa espacio en el diseño y puede superponerse a otros elementos.
+            </p>
+            <h3><li>Position: fixed;</li></h3>
+            <p class="home-texto">
+                Cuando un elemento tiene position: fixed, se posiciona de forma fija en relación con la ventana del navegador, lo que significa que permanecerá en la misma posición incluso cuando se desplace la página. Se utiliza para crear elementos que se mantienen en una ubicación específica de la ventana, como un encabezado o un menú de navegación persistente. Al igual que absolute, un elemento con position: fixed se elimina del flujo normal del documento y no ocupa espacio en el diseño.
+            </p>
+            <h3><li>Position: sticky;</li></h3>
+            <p class="home-texto">
+                El valor sticky permite que un elemento se comporte como relative hasta que alcance una posición de desplazamiento específica, momento en el cual se vuelve fixed y se mantiene en esa posición mientras se desplaza la página. Puedes usar las propiedades top, right, bottom y left para ajustar la posición cuando está "pegajoso". Es especialmente útil para encabezados de tablas o barras de navegación que se fijan en la parte superior de la ventana cuando se desplaza.
+            </p>
+        </div>
+    </section>
+    <footer class="home-footer">
+        <p>todos los derechos reservados</p>
+        <p>La Ceja Antioquia Colombia</p>
+    </footer>
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
